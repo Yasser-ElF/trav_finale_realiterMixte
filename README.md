@@ -1,119 +1,131 @@
-# Aziz's Pizza 
+# 🍕 Aziz’s Pizza (VR Game)
 
-📄 README — Aziz’s Pizza (VR Game)
-🎯 Résumé en une phrase
+## 🎯 One Sentence Summary
+A VR game where you deliver pizzas on a motorcycle and complete as many deliveries as possible before nightfall.
 
-Un jeu VR où tu livres des pizzas en moto dans une ville et dois compléter un maximum de livraisons avant la nuit.
+---
 
-🧾 Description du projet
+## 🧾 Project Description
 
-Aziz’s Pizza est un jeu en réalité virtuelle développé avec Unity.
+**Aziz’s Pizza** is a virtual reality game made with Unity.
 
-Le joueur incarne un livreur de pizza qui commence sa journée dans une pizzeria.
-Il doit prendre des pizzas, monter sur sa moto et les livrer à différents clients dans une île.
+You play as a pizza delivery driver starting your day at a pizzeria.  
+Your goal is to pick up pizzas, ride your motorcycle, and deliver them to customers across an island.
 
-Chaque livraison doit être faite dans un temps limité.
-Si le joueur dépasse le temps → aucun point n’est gagné.
+Each delivery has a **time limit**.  
+If you don’t deliver in time → **you get no points**.
 
-La journée se termine lorsque la nuit tombe, et le score final est affiché.
+The game ends when night falls, and your final score is displayed.
 
-🎮 Mécaniques de jeu
-🔧 Mécaniques principales
-Conduite de moto en VR
-Interaction avec les mains (grab pizza)
-Système de livraison
-Timer par livraison ⏱️
-Cycle jour → nuit 🌅🌙
-Système de score
-⏱️ Timer de livraison
-Chaque commande a son propre timer
-Si le joueur livre à temps → points gagnés
-Si le timer atteint 0 → 0 points
-Bonus si livré rapidement
-🎓 Tutoriel (écran de départ)
+---
 
-Un écran tutoriel explique au joueur :
+## 🎮 Gameplay Mechanics
 
-Comment prendre une pizza
-Comment conduire la moto
-Comment livrer
-Comment fonctionne le timer
-🔁 Boucle de jeu
-Start game
-Tutoriel (optionnel)
-Spawn à la pizzeria
-Prendre une pizza
-Monter sur la moto
-Conduire vers le client
-Livrer avant la fin du timer
-Gagner (ou non) des points
-Recommencer une livraison
-Fin quand la nuit arrive
-🗺️ Environnement (Île)
+### 🏍️ Core Mechanics
+- VR motorcycle driving
+- Grab system (pick up pizza with hands)
+- Delivery system
+- Timer per delivery ⏱️
+- Day/Night cycle 🌅🌙
+- Score system
 
-Le jeu se déroule sur une île pour éviter les routes inutiles.
+---
 
-Zones :
-🍕 Pizzeria (départ)
-🏘️ Quartiers résidentiels (clients)
-🌴 Zones secondaires (raccourcis)
-🌊 Bord de mer
-🌉 Ponts et routes principales
-🎨 Moodboard
-Visuel
-Style low poly
-Couleurs vives
-Ville stylisée/cartoon
-Son
-Musique arcade
-Sons de moto
-Sons de livraison
-⚙️ Schéma de programmation (logique)
+### ⏱️ Delivery Timer
+- Each delivery has its own timer
+- Deliver on time → gain points
+- Timer reaches 0 → 0 points
+- Faster delivery = bonus points
 
-Start
-→ Tutoriel
-→ Spawn joueur
-→ Prendre pizza
-→ Monter moto
-→ Aller à destination
-→ Timer actif
+---
 
-SI livré à temps
-→ + points
+### 🎓 Tutorial Screen
+At the start of the game, a tutorial screen explains:
+- How to grab a pizza
+- How to drive the motorcycle
+- How to deliver
+- How the timer works
 
-SINON
-→ 0 point
+---
 
-→ Nouvelle livraison
+## 🔁 Game Loop
 
-SI nuit
-→ Fin du jeu + score final
+1. Start Game  
+2. Tutorial Screen  
+3. Spawn at Pizzeria  
+4. Grab a Pizza  
+5. Get on Motorcycle  
+6. Drive to Destination  
+7. Deliver before timer ends  
+8. Gain (or not) points  
+9. Repeat deliveries  
+10. Game ends at night  
 
-🧩 Assets à créer
-Moto
-Pizza (objet interactif)
-Pizzeria
-Maisons
-Routes
-Personnages (clients)
-UI (score, timer, tutoriel)
-📋 Tâches (exemple)
-Gameplay
-Système de déplacement VR
-Système de livraison
-Timer
-Score
-Environnement
-Map île
-Routes
-Bâtiments
-UI
-Écran tutoriel
-Score
-Timer
-Audio
-Sons
-Musique
-🏁 Objectif du jeu
+---
 
-Faire le plus de livraisons possible avant la nuit et obtenir le meilleur score.
+## 🗺️ Environment Map
+
+*Visual map of the island showing main roads, delivery zones, and key locations.*
+
+---
+
+## ⚙️ Programming / Interaction Diagram
+
+*Flowchart showing the gameplay loop, delivery system, timer logic, and scoring.*
+
+---
+
+## 🎨 Moodboard
+
+*Collection of visual and audio references representing the style and atmosphere of the game.*
+
+---
+
+## 🧩 Assets Needed
+
+- Motorcycle
+- Pizza (interactive object)
+- Pizzeria building
+- Houses
+- Roads
+- NPC customers
+- UI (score, timer, tutorial)
+
+---
+
+## 📋 Tasks Breakdown
+
+### Gameplay
+- VR movement system
+- Delivery system
+- Timer system
+- Score system
+
+### Environment
+- Island map
+- Roads
+- Buildings
+
+### UI
+- Tutorial screen
+- Score display
+- Timer display
+
+### Audio
+- Sound effects
+- Music
+
+---
+
+## 🏁 Objective
+
+Deliver as many pizzas as possible before night and achieve the highest score.
+
+---
+
+## 💡 Bonus Ideas
+
+- Obstacles (cars, pedestrians)
+- Pizza can fall off
+- Speed boost
+- Leaderboard system
