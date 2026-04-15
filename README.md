@@ -50,7 +50,7 @@ Au début du jeu, un écran explique :
 - Fin du jeu à la tombée de la nuit  
 
 ## 🗺️ Carte de l’environnement
-Carte visuelle de l’île montrant les routes principales, les zones de livraison et les lieux importants.
+
 
 ## ⚙️ Diagramme de programmation / interactions
 Schéma représentant :
